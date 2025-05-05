@@ -1,0 +1,59 @@
+{
+  "name": "wp-plugin-init",
+  "version": "1.0.1",
+  "description": "CLI to scaffold a PHP plugin boilerplate structure",
+  "main": "index.js",
+  "keywords": [
+    "wordpress",
+    "plugin",
+    "wp-plugin",
+    "wordpress-plugin",
+    "boilerplate",
+    "scaffold",
+    "generator",
+    "plugin-generator",
+    "php",
+    "oop",
+    "composer",
+    "mvc",
+    "vite",
+    "vue",
+    "vue3",
+    "vuejs",
+    "modern-plugin",
+    "cli",
+    "cli-tool",
+    "npm-package",
+    "wordpress-development",
+    "plugin-init",
+    "plugin-starter",
+    "psr-4",
+    "wp-cli"
+  ],
+  "bin": {
+    "wp-plugin-init": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template/"
+  ],
+  "type": "module",
+  "author": "Ruman Ahmed",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suitepress/wp-plugin-init/"
+  },
+  "bugs": {
+    "url": "https://github.com/suitepress/wp-plugin-init/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/suitepress/wp-plugin-init#readme"
+}
