@@ -1,0 +1,11 @@
+{
+  "name": "plugins-author/__PLUGIN_NAME__",
+  "description": "Short description for __PLUGIN_NAME__",
+  "type": "wordpress-plugin",
+  "autoload": {
+    "psr-4": {
+      "PluginsNameSpaces\\": "app/"
+    }
+  },
+  "require": {}
+}
